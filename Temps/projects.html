@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IZZY | Operations</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+        :root { --red: #ff004d; --purple: #c300ff; --cyan: #00f9ff; }
+        body { font-family: 'Orbitron', sans-serif; background: #0a0a0a; color: #e0e0e0; }
+        .glitch { color: var(--red); animation: glitch 0.8s linear infinite; }
+        @keyframes glitch { 2%,64%{transform:translate(2px,0)skew(0deg);} 4%,60%{transform:translate(-2px,0)skew(0deg);} }
+    </style>
+</head>
+<body>
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur border-b border-red-500/30">
+        <div class="max-w-7xl mx-auto px-8 py-5 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-3">
+                <div class="w-9 h-9 bg-gradient-to-br from-red-500 to-purple-600 rounded flex items-center justify-center text-2xl font-bold border-2 border-cyan-400">I</div>
+                <span class="text-3xl font-bold tracking-widest glitch">IZZY</span>
+            </a>
+            <div class="flex gap-8 text-sm uppercase tracking-widest">
+                <a href="about.html" class="hover:text-red-400">PROFILE</a>
+                <a href="skills.html" class="hover:text-red-400">MODULES</a>
+                <a href="projects.html" class="text-red-400">OPERATIONS</a>
+                <a href="experience.html" class="hover:text-red-400">LOG</a>
+                <a href="contact.html" class="hover:text-red-400">CONNECT</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-32 pb-20 max-w-5xl mx-auto px-6">
+        <h1 class="text-6xl font-bold mb-12 text-red-400">NOTABLE OPERATIONS</h1>
+        <p class="text-gray-400">Project cards coming soon...</p>
+    </section>
+</body>
+</html>
